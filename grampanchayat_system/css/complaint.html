@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="css/style.css">
+
+<div class="container">
+<h2>Complaint Form</h2>
+
+<form action="complaint.php" method="post" enctype="multipart/form-data">
+
+<input type="text" name="name" placeholder="Name" required>
+<input type="text" name="mobile" placeholder="Mobile" required>
+<input type="text" name="address" placeholder="Address" required>
+
+<input type="text" name="title" placeholder="Title" required>
+
+<select name="category">
+<option>Water</option>
+<option>Road</option>
+<option>Sanitation</option>
+<option>Electricity</option>
+</select>
+
+<textarea name="desc" placeholder="Description"></textarea>
+
+<input type="text" name="location" placeholder="Location">
+
+<input type="date" name="date">
+<input type="time" name="time">
+
+<input type="file" name="img">
+
+<button>Submit</button>
+</form>
+</div>
